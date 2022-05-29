@@ -12,7 +12,7 @@ let app = () => {
 
 class AppCtrl {
   constructor() {
-    this.url = 'https://github.com/actionanand/angular-webpack';
+    this.url = 'https://github.com/actionanand/angularjs-webpack';
   }
 }
 
