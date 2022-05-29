@@ -93,10 +93,11 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 ## Resources
 
 - [Replacement for git clone - degit](https://dev.to/vuelancer/replacement-for-git-clone-degit-3lf1)
+- [Bootstrap 3 Official](https://getbootstrap.com/docs/3.3/)
+- [angular-ui-router NPM package](https://www.npmjs.com/package/angular-ui-router)
 
 ### Credits
 
 - [AngularJs webpack - github(@preeboot)](https://github.com/preboot/angularjs-webpack)
 - [AngularJs webpack demo - github](https://github.com/angular-tips/webpack-demo)
 - [Using AngularJS with ES6 and Webpack](http://angular-tips.com/blog/2015/06/using-angular-1-dot-x-with-es6-and-webpack/)
-
