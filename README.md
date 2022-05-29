@@ -23,6 +23,10 @@ This workflow serves as a starting point for building AngularJS (1.x) applicatio
 # clone our repo
 $ git clone https://github.com/actionanand/angularjs-webpack.git --branch 1-skeleton-base
 
+# alternate way to clone without git history
+
+$ npx degit https://github.com/actionanand/angularjs-webpack.git#1-skeleton-base angularjs-webpack
+
 # change directory to your app
 $ cd angularjs-webpack
 
@@ -85,6 +89,10 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 # License
 
 [MIT](/LICENSE)
+
+## Resources
+
+- [Replacement for git clone - degit](https://dev.to/vuelancer/replacement-for-git-clone-degit-3lf1)
 
 ### Credits
 
