@@ -21,10 +21,10 @@ This workflow serves as a starting point for building AngularJS (1.x) applicatio
 
 ```bash
 # clone our repo
-$ git clone https://github.com/actionanand/angularjs-webpack.git my-app
+$ git clone https://github.com/actionanand/angularjs-webpack.git --branch 1-skeleton-base
 
 # change directory to your app
-$ cd my-app
+$ cd angularjs-webpack
 
 # install the dependencies with npm
 $ npm install
