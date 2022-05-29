@@ -7,7 +7,9 @@
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
     "test": "karma start",
     "test-watch": "karma start --auto-watch --no-single-run",
-    "start": "npm run server"
+    "start": "npm run server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "2.0.0-beta.5",
     "file-loader": "^1.1.11",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^3.2.0",
     "istanbul-instrumenter-loader": "^3.0.1",
     "jasmine-core": "^3.1.0",
