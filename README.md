@@ -1,4 +1,4 @@
-# angularjs-webpack
+# AngularJS Webpack
 
 A complete, yet simple, starter for AngularJS using Webpack.
 
