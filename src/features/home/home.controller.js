@@ -1,6 +1,6 @@
 export default class HomeController {
   constructor(randomNames) {
-    this.random = randomNames;
+    this.randomNameServ = randomNames;
     this.name = 'World';
   }
 
@@ -9,7 +9,7 @@ export default class HomeController {
   }
 
   randomName() {
-    this.name = this.random.getName();
+    this.name = this.randomNameServ.getName();
   }
 }
 

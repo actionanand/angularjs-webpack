@@ -3,6 +3,7 @@ import angular from 'angular';
 class RandomNames {
   constructor() {
     this.names = ['John', 'Elisa', 'Mark', 'Annie'];
+    this.sharedName = 'Beta Testing';
   }
 
   getName() {
