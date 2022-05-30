@@ -6786,5 +6786,22 @@ button.close {
   }
 }#home-header {
   text-align: center;
+}.navbar-img-wrap {
+  padding: 0 !important;
+}
+
+.navbar-img-wrap-icon {
+  height: 50px;
+  padding: 8px;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid red;
 }
 /*# sourceMappingURL=app.css.map*/
