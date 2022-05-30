@@ -2,6 +2,7 @@
 
 // Modules
 var webpack = require('webpack');
+var path = require('path');
 var autoprefixer = require('autoprefixer');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -31,7 +32,7 @@ module.exports = function makeWebpackConfig() {
    * Karma will set this when it's a test build
    */
   config.entry = isTest ? void 0 : {
-    app: './src/app.js'
+    app: __dirname + '/src/app.js'
   };
 
   /**
@@ -46,7 +47,7 @@ module.exports = function makeWebpackConfig() {
 
     // Output path from the view of the page
     // Uses webpack-dev-server in development
-    publicPath: '/angularjs-webpack',
+    publicPath: isProd ? '/angularjs-webpack' : '/',
 
     // Filename for entry points
     // Only adds hash in build mode
@@ -178,8 +179,9 @@ module.exports = function makeWebpackConfig() {
     // Render index.html
     config.plugins.push(
       new HtmlWebpackPlugin({
-        template: './src/public/index.html',
-        inject: 'body'
+        template: __dirname + '/src/public/index.html',
+        inject: 'body',
+        favicon: __dirname + '/src/public/img/favicon.ico'
       }),
 
       // Reference: https://github.com/webpack/extract-text-webpack-plugin
@@ -195,6 +197,10 @@ module.exports = function makeWebpackConfig() {
       // Reference: http://webpack.github.io/docs/list-of-plugins.html#noerrorsplugin
       // Only emit files when there are no errors
       new webpack.NoErrorsPlugin(),
+
+      new HtmlWebpackPlugin({
+        favicon: __dirname + '/src/public/img/favicon.ico'
+      }),
 
       // Reference: http://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin
       // Minify all javascript, switch loaders to minimizing mode
@@ -214,7 +220,8 @@ module.exports = function makeWebpackConfig() {
    * Reference: http://webpack.github.io/docs/webpack-dev-server.html
    */
   config.devServer = {
-    contentBase: './src/public',
+    publicPath: '/',
+    contentBase: path.join(__dirname, '/src/public'),
     stats: 'minimal',
     host: '0.0.0.0',
     disableHostCheck: true

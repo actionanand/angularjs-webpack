@@ -95,6 +95,7 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 - [Replacement for git clone - degit](https://dev.to/vuelancer/replacement-for-git-clone-degit-3lf1)
 - [Bootstrap 3 Official](https://getbootstrap.com/docs/3.3/)
 - [angular-ui-router NPM package](https://www.npmjs.com/package/angular-ui-router)
+- [How to use index.js file(Properly)](https://dev.to/fahadaminshovon/-how-to-use-indexjs-fileproperly-302f)
 
 ### Credits
 
