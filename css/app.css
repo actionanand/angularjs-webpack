@@ -6786,6 +6786,8 @@ button.close {
   }
 }#home-header {
   text-align: center;
+}.form-wrap {
+  max-width: 500px;
 }.navbar-img-wrap {
   padding: 0 !important;
 }
