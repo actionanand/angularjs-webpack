@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>AngularJS App</title>
-  <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <base href="./">
+  <base href="/">
 </head>
 <body>
-  <app></app>
+  <div class="container">
+    <navbar my-links="[{name: 'Home', link: '/'}, {name: 'Beta testing', link: 'beta-testing'}]"></navbar>
+    <ui-view></ui-view>
+  </div>
 </body>
 </html>

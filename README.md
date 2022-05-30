@@ -37,7 +37,7 @@ $ npm install
 $ npm start
 ```
 
-go to [http://localhost:8080/angularjs-webpack](http://localhost:8080/angularjs-webpack) in your browser.
+go to [http://localhost:8080/](http://localhost:8080/) in your browser.
 
 # Table of Contents
 
@@ -93,10 +93,14 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 ## Resources
 
 - [Replacement for git clone - degit](https://dev.to/vuelancer/replacement-for-git-clone-degit-3lf1)
+- [Bootstrap 3 Official](https://getbootstrap.com/docs/3.3/)
+- [angular-ui-router NPM package](https://www.npmjs.com/package/angular-ui-router)
+- [How to use index.js file(Properly)](https://dev.to/fahadaminshovon/-how-to-use-indexjs-fileproperly-302f)
+- [Using $scope.$watch in ES6](https://stackoverflow.com/questions/36452919/using-scope-watch-in-es6)
+- [Angularjs: 'controller as syntax' and $watch](https://stackoverflow.com/questions/24078535/angularjs-controller-as-syntax-and-watch)
 
 ### Credits
 
 - [AngularJs webpack - github(@preeboot)](https://github.com/preboot/angularjs-webpack)
 - [AngularJs webpack demo - github](https://github.com/angular-tips/webpack-demo)
 - [Using AngularJS with ES6 and Webpack](http://angular-tips.com/blog/2015/06/using-angular-1-dot-x-with-es6-and-webpack/)
-

@@ -19,7 +19,9 @@
   "license": "MIT",
   "homepage": "https://actionanand.github.io/angularjs-webpack",
   "dependencies": {
-    "angular": "^1.7.0"
+    "angular": "^1.7.0",
+    "angular-ui-router": "^1.0.30",
+    "bootstrap": "^3.3.5"
   },
   "devDependencies": {
     "ajv": "^6.4.0",
