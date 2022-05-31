@@ -6,7 +6,7 @@
     "build": "webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
     "test": "karma start",
-    "test-watch": "karma start --auto-watch --no-single-run",
+    "test:live": "karma start --auto-watch --no-single-run",
     "start": "npm run server",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
