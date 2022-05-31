@@ -1,5 +1,7 @@
 import angular from 'angular';
 
+import logo from '../../public/img/logo.png';
+
 import './navbar.css';
 
 function navbar() {
@@ -8,7 +10,10 @@ function navbar() {
     scope: {
       myLinks: '='
     },
-    template: require('./navbar.html')
+    template: require('./navbar.html'),
+    controller: function($scope){
+      $scope.logoImg = logo;
+   }
   }
 }
 

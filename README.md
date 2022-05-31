@@ -103,6 +103,8 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 - [Exploring ES6 Classes In AngularJS 1.x](https://www.michaelbromley.co.uk/blog/exploring-es6-classes-in-angularjs-1.x/)
 - [Advanced routing and resolves](https://medium.com/opinionated-angularjs/advanced-routing-and-resolves-a2fcbf874a1c)
 - [Pokemon github](https://github.com/zamarrowski/pokemon-poc)
+- [file-loader to load images by webpack](https://v4.webpack.js.org/loaders/file-loader/)
+- [creating a new variable in directive scope - stackoverflow](https://stackoverflow.com/questions/26517058/creating-a-new-variable-in-directive-scope)
 
 ### Credits
 
