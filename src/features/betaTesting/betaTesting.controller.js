@@ -11,6 +11,13 @@ export default class BetaTestingController {
       console.info('Input name changed to : ' + newVal);
     });
 
+    // scope without using arrow function
+    // $scope.$watch(angular.bind(this, function () {
+    //   return this.inputName;
+    // }), function (newVal, oldvalue) {
+    //   console.log('Name changed to :' + newVal);
+    // });
+
   }
 
 }
