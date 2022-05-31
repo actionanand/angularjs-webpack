@@ -6,7 +6,8 @@ function greeting() {
     scope: {
       name: '='
     },
-    template: '<h1>Hello, {{name}}</div>'
+    transclude: true,
+    template: '<h1>Hello, {{name}}</h1> <small ng-transclude></small>'
   }
 }
 

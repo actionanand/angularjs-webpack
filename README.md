@@ -98,6 +98,9 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 - [How to use index.js file(Properly)](https://dev.to/fahadaminshovon/-how-to-use-indexjs-fileproperly-302f)
 - [Using $scope.$watch in ES6](https://stackoverflow.com/questions/36452919/using-scope-watch-in-es6)
 - [Angularjs: 'controller as syntax' and $watch](https://stackoverflow.com/questions/24078535/angularjs-controller-as-syntax-and-watch)
+- [Digging into Angulars Controller as syntax](https://ultimatecourses.com/blog/digging-into-angulars-controller-as-syntax)
+- [angular 1.5 method .name in export angular.module](https://stackoverflow.com/questions/38169651/angular-1-5-method-name-in-export-angular-module)
+- [Exploring ES6 Classes In AngularJS 1.x](https://www.michaelbromley.co.uk/blog/exploring-es6-classes-in-angularjs-1.x/)
 
 ### Credits
 
