@@ -101,6 +101,8 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 - [Digging into Angulars Controller as syntax](https://ultimatecourses.com/blog/digging-into-angulars-controller-as-syntax)
 - [angular 1.5 method .name in export angular.module](https://stackoverflow.com/questions/38169651/angular-1-5-method-name-in-export-angular-module)
 - [Exploring ES6 Classes In AngularJS 1.x](https://www.michaelbromley.co.uk/blog/exploring-es6-classes-in-angularjs-1.x/)
+- [Advanced routing and resolves](https://medium.com/opinionated-angularjs/advanced-routing-and-resolves-a2fcbf874a1c)
+- [Pokemon github](https://github.com/zamarrowski/pokemon-poc)
 
 ### Credits
 
