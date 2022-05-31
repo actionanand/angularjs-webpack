@@ -11,9 +11,10 @@ function navbar() {
       myLinks: '='
     },
     template: require('./navbar.html'),
-    controller: function($scope){
+    controller: (['$scope', function($scope) {
+      $scope.logoName = 'Brand';
       $scope.logoImg = logo;
-   }
+    }])
   }
 }
 
