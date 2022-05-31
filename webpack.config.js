@@ -47,7 +47,7 @@ module.exports = function makeWebpackConfig() {
 
     // Output path from the view of the page
     // Uses webpack-dev-server in development
-    publicPath: isProd ? '/angularjs-webpack' : '/',
+    publicPath: isProd ? '/angularjs-webpack/' : '/',
 
     // Filename for entry points
     // Only adds hash in build mode
@@ -119,7 +119,10 @@ module.exports = function makeWebpackConfig() {
       // Pass along the updated reference to your code
       // You can add here any file extension you want to get copied to your output
       test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
-      loader: 'file-loader'
+      loader: 'file-loader',
+      options: {
+        name: isProd ? '[contenthash]_[name].[ext]' : '[path][name].[ext]',
+      },
     }, {
       // HTML LOADER
       // Reference: https://github.com/webpack/raw-loader
