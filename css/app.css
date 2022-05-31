@@ -261,8 +261,8 @@ th {
 }
 @font-face {
   font-family: "Glyphicons Halflings";
-  src: url(/angularjs-webpacknode_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot);
-  src: url(/angularjs-webpacknode_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/angularjs-webpacknode_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(/angularjs-webpacknode_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff) format("woff"), url(/angularjs-webpacknode_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(/angularjs-webpacknode_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
+  src: url(/angularjs-webpack/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot);
+  src: url(/angularjs-webpack/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/angularjs-webpack/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(/angularjs-webpack/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff) format("woff"), url(/angularjs-webpack/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(/angularjs-webpack/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
 .glyphicon {
   position: relative;
